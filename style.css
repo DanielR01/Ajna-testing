@@ -1,0 +1,163 @@
+:root {
+    --bg-color: #f2f2f2;
+    --main-color: rgb(182, 3, 252);
+    --second-color: #fabf2a;
+}
+
+.nav-link{
+    font-size: 1.1rem !important;
+    font-weight: bold !important;
+}
+
+.nav-link:hover{
+    color: var(--second-color) !important;
+}
+
+.nav-link.active {
+    color: var(--main-color) !important;
+    background-color: transparent !important;
+    font-weight: bold;
+}
+
+#started-button {
+    color: var(--bg-color) ;
+    background-color: var(--main-color) ;
+    font-weight: 600 ;
+    border: 2px solid var(--bg-color) ;
+    border-radius: 0.65rem ;
+}
+
+#started-button:hover {
+    color: var(--main-color);
+    background-color: var(--bg-color) ;
+    border: 2px solid var(--main-color) ;
+}
+
+#started-button:focus{
+    color: var(--second-color) ;
+    background-color: var(--bg-color) ;
+    font-weight: 600 ;
+    border: 2px solid var(--second-color) ;
+}
+
+#started-2-button {
+    color: var(--bg-color) !important;
+    background-color: var(--main-color) !important;
+    font-weight: 600 !important;
+    border: 2px solid var(--bg-color) !important;
+    border-radius: 0.65rem !important;
+}
+
+#started-2-button:hover {
+    background-color: var(--second-color) !important;
+    border: 2px solid var(--second-color) !important;
+}
+
+#started-2-button:focus{
+    color: var(--second-color) !important;
+    background-color: var(--bg-color) !important;
+    font-weight: 600 !important;
+    border: 2px solid var(--second-color) !important;
+}
+
+#process-button {
+    color: var(--main-color) ;
+    background-color: var(--bg-color) ;
+    font-weight: 600 ;
+    border: 2px solid var(--main-color) ;
+    border-radius: 0.65rem ;
+}
+#process-button:hover {
+    color: var(--second-color) ;
+    border: 2px solid var(--second-color) ;
+}
+
+
+.navbar-brand {
+    color: var(--main-color) !important;
+    font-weight: bold;
+    font-size: 1.5rem !important;
+    max-width: 45.3px !important;
+}
+
+.navbar-brand:hover {
+    color: var(--second-color) !important;
+}
+
+body {
+    font-family: 'Cabin', sans-serif !important;
+    background-color: var(--bg-color)!important;
+    min-height: 100%;
+}
+
+.content-div {
+    min-height: 100vh !important;
+    padding-top: 68.4px !important;
+    padding-bottom: 20px !important;
+}
+
+.h-fp {
+    height: 100% !important;
+}
+
+#navbar-fixed {
+    background-color: var(--bg-color) !important;
+}
+
+.card {
+    border: 0px !important;
+    border-radius: 0.85rem !important;
+}
+
+.w-fp {
+    width: 100% !important;
+}
+
+h1 {
+    color: var(--main-color) !important;
+    font-size: 4.5rem !important;
+}
+
+h2 {
+    color: var(--main-color) !important;
+    font-size: 1.8rem !important;
+}
+
+#main-msg::selection{
+    background-color: var(--second-color) !important;
+}
+#main-msg strong::selection{
+    background-color: var(--second-color) !important;
+}
+
+.feat-card {
+    background-color: var(--bg-color) !important;
+    box-shadow: none !important;
+}
+
+.feat-card:hover {
+    background-color: white !important;
+}
+
+@media (min-width: 992px){
+    .px-sm-12 {
+        padding-left: 12rem !important;
+        padding-right: 12rem !important;
+    }
+}
+@media (max-width: 992px){
+    .hidden-sm{
+        display: none !important;
+    }
+    #home.col-sm-12{
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+strong {
+    color: var(--bg-color) !important;
+    background-color: var(--main-color) !important;
+}
+strong:hover {
+    background-color: var(--second-color) !important;
+}
